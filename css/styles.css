@@ -293,6 +293,9 @@ img {
 }
 
 .product__img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 200px;
   height: 151px;
   margin-bottom: 24px;
@@ -358,6 +361,10 @@ img {
   .product__img {
     margin-bottom: 0;
     margin-right: 36px;
+  }
+
+  .product__info {
+    max-width: 55%;
   }
 }
 
@@ -480,6 +487,10 @@ img {
     object-position: bottom;
   }
 
+  .product__info {
+    max-width: 50%;
+  }
+
   .product__name {
     margin-bottom: 24px;
   }
@@ -564,6 +575,10 @@ img {
   .product__img {
     margin-right: 0;
     margin-bottom: 72px;
+  }
+
+  .product__info {
+    max-width: 100%;
   }
 
   .product__desc {
