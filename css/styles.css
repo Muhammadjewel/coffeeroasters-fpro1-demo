@@ -219,6 +219,7 @@ img {
 /* HERO */
 .hero {
   padding: 60px 24px;
+  margin-bottom: 120px;
   border-radius: 10px;
   background-color: var(--dark-grey-blue);
   background-repeat: no-repeat;
@@ -347,6 +348,7 @@ img {
   /* HERO */
   .hero {
     padding: 104px 60px;
+    margin-bottom: 144px;
     text-align: left;
   }
 
@@ -388,6 +390,10 @@ img {
   }
 
   /* HERO */
+  .hero {
+    margin-bottom: 136px;
+  }
+
   .hero--index {
     background-image: url("../img/hero-index-desktop.jpg");
   }
