@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="page" lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,32 @@
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body class="page__body">
+
+  <div class="page__container container">
+    <!-- SITE-HEADER -->
+    <header class="site-header">
+      <a class="site-header__logo" href="index.html">
+        <img class="site-header__logo-img" src="img/logo.svg" alt="Coffee Roasters logo" width="163" height="18">
+      </a>
+
+      <button class="site-header__toggler" type="button" aria-label="Toggle site navigation"></button>
+
+      <nav class="site-header__sitenav sitenav">
+        <ul class="sitenav__list">
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">Home</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">About us</a>
+          </li>
+          <li class="sitenav__item">
+            <a class="sitenav__link" href="#">Create your plan</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </div>
 
 
   <script src="js/main.js"></script>
