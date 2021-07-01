@@ -137,6 +137,7 @@ img {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: contain;
+  cursor: pointer;
 }
 
 .site-header--open .site-header__toggler {
