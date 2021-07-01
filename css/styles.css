@@ -1,5 +1,37 @@
 :root {
+  --font-family-body: "Barlow", "Arial", sans-serif;
+  --font-family-fancy: "Fraunces 9pt", "Times New Roman", serif;
 }
+
+
+/* FONTS */
+@font-face {
+  font-family: "Barlow";
+  src: url("../fonts/Barlow-Bold.woff2") format("woff2"),
+    url("../fonts/Barlow-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fraunces 9pt";
+  src: url("../fonts/Fraunces9pt-Black.woff2") format("woff2"),
+    url("../fonts/Fraunces9pt-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("../fonts/Barlow-Regular.woff2") format("woff2"),
+    url("../fonts/Barlow-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 /* GENERAL */
 html {
@@ -20,7 +52,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: var(--font-family-body);
   background-color: #fff;
 }
 
