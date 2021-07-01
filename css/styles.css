@@ -61,8 +61,11 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
+  font-size: 15px;
+  line-height: 25px;
   font-family: var(--font-family-body);
-  background-color: #fff;
+  background-color: var(--light-cream);
+  color: var(--dark-grey-blue);
 }
 
 img {
