@@ -1,6 +1,15 @@
 :root {
   --font-family-body: "Barlow", "Arial", sans-serif;
   --font-family-fancy: "Fraunces 9pt", "Times New Roman", serif;
+
+  --dark-cyan: #0E8784;
+  --light-cyan: #66D2CF;
+  --dark-grey-blue: #333D4B;
+  --pale-orange: #FDD6BA;
+  --light-cream: #FEFCF7;
+  --dark-cream: #F4F1EB;
+  --grey: #83888F;
+  --light-grey: #E2DEDB;
 }
 
 
