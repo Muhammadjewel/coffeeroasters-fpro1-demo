@@ -240,6 +240,10 @@ img {
   font-family: var(--font-family-fancy);
 }
 
+.hero__heading--small {
+  font-size: 28px;
+}
+
 .hero__text {
   margin: 0;
 }
@@ -358,6 +362,11 @@ img {
     font-size: 48px;
   }
 
+  .hero__heading--small {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
   @media
     only screen and (-webkit-min-device-pixel-ratio: 2),
     only screen and (   min--moz-device-pixel-ratio: 2),
@@ -390,6 +399,11 @@ img {
   .hero__heading {
     margin-bottom: 32px;
     font-size: 72px;
+  }
+
+  .hero__heading--small {
+    font-size: 40px;
+    line-height: 48px;
   }
 
   .hero__text:last-of-type:not(:last-child) {
