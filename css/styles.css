@@ -248,6 +248,7 @@ img {
 
 /* HERO */
 .hero {
+  min-height: 400px;
   padding: 60px 24px;
   margin-bottom: 120px;
   border-radius: 10px;
