@@ -606,6 +606,43 @@ img {
 }
 
 
+/* ABOUT-QUALITY */
+.about-quality {
+  position: relative;
+  z-index: 1;
+  padding: 140px 24px 60px;
+  margin-bottom: 120px;
+  border-radius: 10px;
+  background-color: var(--dark-grey);
+  color: var(--light-cream);
+  text-align: center;
+}
+
+.about-quality__img {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 280px;
+  height: 156px;
+  border-radius: 8px;
+}
+
+.about-quality__heading {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 28px;
+  line-height: 1;
+  font-family: var(--font-family-fancy);
+  font-weight: 900;
+}
+
+.about-quality__text {
+  margin: 0;
+}
+
+
 @media
   only screen and (-webkit-min-device-pixel-ratio: 2),
   only screen and (   min--moz-device-pixel-ratio: 2),
@@ -722,6 +759,13 @@ img {
   .sitenav--site-footer .sitenav__item:not(:last-child) {
     margin-bottom: 0;
     margin-right: 33px;
+  }
+
+  /* ABOUT-QUALITY */
+  .about-quality__content {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -943,6 +987,25 @@ img {
     width: 340px;
   }
 
+  /* ABOUT-QUALITY */
+  .about-quality {
+    padding: 224px 74px 67px;
+    margin-bottom: 144px;
+  }
+
+  .about-quality__img {
+    width: 575px;
+    height: 320px;
+  }
+
+  .about-quality__content {
+    max-width: 100%;
+  }
+
+  .about-quality__heading {
+    font-size: 32px;
+    line-height: 48px;
+  }
 
   @media
     only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -1227,9 +1290,50 @@ img {
 }
 
 @media only screen and (min-width: 1300px) {
+  /* ABOUT-COMMITMENT */
   .about-commitment__heading {
     margin-bottom: 32px;
     font-size: 40px;
     line-height: 48px;
+  }
+
+  /* ABOUT-QUALITY */
+  .about-quality {
+    padding: 88px 85px 176px;
+    margin-bottom: 168px;
+    text-align: left;
+  }
+
+  .about-quality__img {
+    transform: none;
+    left: auto;
+    top: auto;
+    right: 85px;
+    bottom: 88px;
+    width: 445px;
+    height: 474px;
+    object-fit: cover;
+  }
+
+  .about-quality__content {
+    max-width: 50%;
+    margin-left: 0;
+  }
+
+  .about-quality__heading {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .about-quality__text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  /* ABOUT-QUALITY */
+  .about-quality__content {
+    max-width: 520px;
   }
 }
