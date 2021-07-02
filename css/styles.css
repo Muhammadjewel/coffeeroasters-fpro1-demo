@@ -568,6 +568,38 @@ img {
 }
 
 
+/* ABOUT-COMMITMENT */
+.about-commitment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.about-commitment__img {
+  flex-shrink: 0;
+  display: block;
+  width: 327px;
+  height: 400px;
+  margin-bottom: 48px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.about-commitment__heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 32px;
+  line-height: 48px;
+  font-family: var(--font-family-fancy);
+}
+
+.about-commitment__text {
+  margin: 0;
+}
+
+
 @media
   only screen and (-webkit-min-device-pixel-ratio: 2),
   only screen and (   min--moz-device-pixel-ratio: 2),
@@ -886,6 +918,26 @@ img {
   }
 
 
+  /* ABOUT-COMMITMENT */
+  .about-commitment {
+    flex-direction: row;
+    text-align: left;
+    margin-bottom: 300px;
+  }
+
+  .about-commitment__img {
+    width: 281px;
+    height: 470px;
+    margin-bottom: 0;
+    margin-right: 70px;
+  }
+
+  .about-commitment__content {
+    flex-grow: 1;
+    width: 340px;
+  }
+
+
   @media
     only screen and (-webkit-min-device-pixel-ratio: 2),
     only screen and (   min--moz-device-pixel-ratio: 2),
@@ -1117,6 +1169,14 @@ img {
   }
 
 
+  /* ABOUT-COMMITMENT */
+  .about-commitment {
+    padding-left: 85px;
+    padding-right: 85px;
+    margin-bottom: 256px;
+  }
+
+
   @media
     only screen and (-webkit-min-device-pixel-ratio: 2),
     only screen and (   min--moz-device-pixel-ratio: 2),
@@ -1135,6 +1195,12 @@ img {
 }
 
 @media only screen and (min-width: 1100px) {
+  /* CONTAINER */
+  .container {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
   /* WORK-PROCESS-STEP */
   .work-process-step__title {
     padding-right: 20%;
@@ -1144,5 +1210,20 @@ img {
   .site-footer {
     padding: 47px 85px;
     margin-bottom: 88px;
+  }
+
+  /* ABOUT-COMMITMENT */
+  .about-commitment__img {
+    width: 445px;
+    height: 520px;
+    margin-right: 125px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .about-commitment__heading {
+    margin-bottom: 32px;
+    font-size: 40px;
+    line-height: 48px;
   }
 }
