@@ -209,6 +209,7 @@ img {
   background-image: linear-gradient(0deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
   text-transform: capitalize;
   letter-spacing: 0;
+  font-weight: 900;
 }
 
 .sitenav__list {
@@ -272,6 +273,7 @@ img {
   font-size: 32px;
   line-height: 1;
   font-family: var(--font-family-fancy);
+  font-weight: 900;
 }
 
 .hero__heading--small {
@@ -471,6 +473,7 @@ img {
   line-height: 32px;
   font-family: var(--font-family-fancy);
   color: var(--grey);
+  font-weight: 900;
 }
 
 .work-process__list {
@@ -504,6 +507,7 @@ img {
   font-size: 72px;
   line-height: 1;
   font-family: var(--font-family-fancy);
+  font-weight: 900;
   color: var(--pale-orange);
   content: "0" counter(work-process);
 }
@@ -514,6 +518,7 @@ img {
   font-size: 28px;
   line-height: 32px;
   font-family: var(--font-family-fancy);
+  font-weight: 900;
 }
 
 .work-process-step__desc {
@@ -593,6 +598,7 @@ img {
   font-size: 32px;
   line-height: 48px;
   font-family: var(--font-family-fancy);
+  font-weight: 900;
 }
 
 .about-commitment__text {
