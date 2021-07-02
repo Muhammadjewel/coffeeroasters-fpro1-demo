@@ -417,6 +417,69 @@ img {
 }
 
 
+/* WORK-PROCESS */
+.work-process {
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+.work-process__heading {
+  margin-top: 0;
+  margin-bottom: 80px;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: var(--font-family-fancy);
+  color: var(--grey);
+}
+
+.work-process__list {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 80px;
+  list-style: none;
+  counter-reset: work-process;
+}
+
+.work-process__step {
+  counter-increment: work-process;
+}
+
+.work-process__step:not(:last-child) {
+  margin-bottom: 56px;
+}
+
+/* WORK-PROCESS-STEP */
+.work-process-step {
+}
+
+.work-process-step__content::before {
+  display: inline-block;
+  margin-bottom: 24px;
+  font-size: 72px;
+  line-height: 1;
+  font-family: var(--font-family-fancy);
+  color: var(--pale-orange);
+  content: "0" counter(work-process);
+}
+
+.work-process-step__title {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-size: 28px;
+  line-height: 32px;
+  font-family: var(--font-family-fancy);
+}
+
+.work-process-step__desc {
+  margin: 0;
+}
+
+.work-process__plan-link {
+}
+.button {
+}
+
+
 @media
   only screen and (-webkit-min-device-pixel-ratio: 2),
   only screen and (   min--moz-device-pixel-ratio: 2),
