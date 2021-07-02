@@ -262,6 +262,10 @@ img {
   background-image: url("../img/hero-index-mobile.jpg");
 }
 
+.hero--about {
+  background-image: url("../img/hero-about-mobile.jpg");
+}
+
 .hero__heading {
   margin-top: 0;
   margin-bottom: 24px;
@@ -574,6 +578,10 @@ img {
   .hero--index {
     background-image: url("../img/hero-index-mobile@2x.jpg");
   }
+
+  .hero--about {
+    background-image: url("../img/hero-about-mobile@2x.jpg");
+  }
 }
 
 
@@ -585,6 +593,10 @@ img {
 
   .hero__heading {
     font-size: 40px;
+  }
+
+  .hero__heading--small {
+    font-size: 28px;
   }
 }
 
@@ -753,6 +765,10 @@ img {
     background-image: url("../img/hero-index-tablet.jpg");
   }
 
+  .hero--about {
+    background-image: url("../img/hero-about-tablet.jpg");
+  }
+
   .hero__content {
     max-width: 370px;
   }
@@ -880,6 +896,10 @@ img {
     .hero--index {
       background-image: url("../img/hero-index-tablet@2x.jpg");
     }
+
+    .hero--about {
+      background-image: url("../img/hero-about-tablet@2x.jpg");
+    }
   }
 }
 
@@ -931,6 +951,10 @@ img {
 
   .hero--index {
     background-image: url("../img/hero-index-desktop.jpg");
+  }
+
+  .hero--about {
+    background-image: url("../img/hero-about-desktop.jpg");
   }
 
   .hero__content {
@@ -1102,6 +1126,10 @@ img {
     only screen and (                min-resolution: 2dppx) {
     .hero--index {
       background-image: url("../img/hero-index-desktop@2x.jpg");
+    }
+
+    .hero--about {
+      background-image: url("../img/hero-about-desktop@2x.jpg");
     }
   }
 }
