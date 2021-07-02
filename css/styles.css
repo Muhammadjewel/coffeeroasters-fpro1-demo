@@ -423,6 +423,15 @@ img {
   text-align: center;
 }
 
+.work-process--dark {
+  padding: 80px 24px;
+  margin-left: -24px;
+  margin-right: -24px;
+  border-radius: 10px;
+  background-color: var(--dark-grey);
+  color: #fff;
+}
+
 .work-process__heading {
   margin-top: 0;
   margin-bottom: 80px;
@@ -446,6 +455,14 @@ img {
 
 .work-process__step:not(:last-child) {
   margin-bottom: 56px;
+}
+
+.work-process--dark .work-process__step::before {
+  background-color: transparent;
+}
+
+.work-process--dark .work-process__step:not(:last-child)::after {
+  left: 15px;
 }
 
 /* WORK-PROCESS-STEP */
@@ -922,6 +939,12 @@ img {
     margin-bottom: 200px;
   }
 
+  .work-process--dark {
+    padding: 100px 85px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .work-process__heading {
     margin-bottom: 80px;
   }
@@ -932,6 +955,10 @@ img {
 
   .work-process-step {
     padding-right: 95px;
+  }
+
+  .work-process--dark .work-process__step {
+    padding-right: 70px;
   }
 
   .work-process-step__content::before {
