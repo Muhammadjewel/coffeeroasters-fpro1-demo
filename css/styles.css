@@ -638,6 +638,11 @@ img {
     margin-bottom: 24px;
   }
 
+  /* FEATURES */
+  .features__list {
+    padding: 0 56px;
+  }
+
 
   @media
     only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -649,6 +654,40 @@ img {
     .hero--index {
       background-image: url("../img/hero-index-tablet@2x.jpg");
     }
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  /* FEATURES */
+  .features__list {
+    display: flex;
+    margin-left: -30px;
+  }
+
+  .features__item {
+    width: calc(100% / 3 - 30px);
+    margin-left: 30px;
+  }
+
+  .features__item:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  /* FEATURE */
+  .feature {
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 36px;
+    text-align: center;
+  }
+
+  .feature::before {
+    margin-right: 0;
+    margin-bottom: 56px;
+  }
+
+  .feature__name {
+    margin-bottom: 24px;
   }
 }
 
@@ -727,6 +766,38 @@ img {
   .product__desc {
     font-size: 16px;
     line-height: 26px;
+  }
+
+  /* FEATURES */
+  .features {
+    margin-bottom: 200px;
+  }
+
+  .features__header {
+    padding-top: 100px;
+    padding-bottom: 86px;
+  }
+
+  .features__header::after {
+    height: 220px;
+  }
+
+  .features__heading,
+  .features__text {
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .features__list {
+    padding: 0 86px;
+    margin-top: 0;
+  }
+
+  /* FEATURE */
+  .feature::before {
+    width: 72px;
+    height: 72px;
   }
 
 
