@@ -268,6 +268,10 @@ img {
   background-image: url("../img/hero-about-mobile.jpg");
 }
 
+.hero--subscription {
+  background-image: url("../img/hero-subscription-mobile.jpg");
+}
+
 .hero__heading {
   margin-top: 0;
   margin-bottom: 24px;
@@ -729,6 +733,10 @@ img {
   .hero--about {
     background-image: url("../img/hero-about-mobile@2x.jpg");
   }
+
+  .hero--subscription {
+    background-image: url("../img/hero-subscription-mobile@2x.jpg");
+  }
 }
 
 
@@ -921,6 +929,10 @@ img {
 
   .hero--about {
     background-image: url("../img/hero-about-tablet.jpg");
+  }
+
+  .hero--subscription {
+    background-image: url("../img/hero-subscription-tablet.jpg");
   }
 
   .hero__content {
@@ -1125,6 +1137,10 @@ img {
     .hero--about {
       background-image: url("../img/hero-about-tablet@2x.jpg");
     }
+
+    .hero--subscription {
+      background-image: url("../img/hero-subscription-tablet@2x.jpg");
+    }
   }
 }
 
@@ -1180,6 +1196,10 @@ img {
 
   .hero--about {
     background-image: url("../img/hero-about-desktop.jpg");
+  }
+
+  .hero--subscription {
+    background-image: url("../img/hero-subscription-desktop.jpg");
   }
 
   .hero__content {
@@ -1379,6 +1399,10 @@ img {
 
     .hero--about {
       background-image: url("../img/hero-about-desktop@2x.jpg");
+    }
+
+    .hero--subscription {
+      background-image: url("../img/hero-subscription-desktop@2x.jpg");
     }
   }
 }
