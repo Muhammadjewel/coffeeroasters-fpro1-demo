@@ -1079,6 +1079,38 @@ img {
     line-height: 48px;
   }
 
+  /* HEADQUARTERS */
+  .headquarters {
+    margin-bottom: 144px;
+    text-align: left;
+  }
+
+  .headquarters__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -40px;
+  }
+
+  .headquarters__item {
+    width: 33.33%;
+    padding-right: 10px;
+    margin-bottom: 40px;
+  }
+
+  .headquarters__item:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+
+  /* HEADQUARTER */
+  .headquarter::before {
+    background-position: left center;
+  }
+
+  .headquarter__heading {
+    font-size: 24px;
+  }
+
   @media
     only screen and (-webkit-min-device-pixel-ratio: 2),
     only screen and (   min--moz-device-pixel-ratio: 2),
@@ -1315,6 +1347,22 @@ img {
     padding-left: 85px;
     padding-right: 85px;
     margin-bottom: 256px;
+  }
+
+  /* HEADQUARTERS */
+  .headquarters {
+    margin-bottom: 168px;
+  }
+
+  /* HEADQUARTER */
+  .headquarter__heading {
+    margin-bottom: 24px;
+    font-size: 32px;
+  }
+
+  .headquarter__contact-info {
+    font-size: 16px;
+    line-height: 26px;
   }
 
 
