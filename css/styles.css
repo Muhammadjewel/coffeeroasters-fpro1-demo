@@ -489,6 +489,10 @@ img {
   counter-reset: work-process;
 }
 
+.work-process--dark .work-process__list {
+  margin-bottom: 0;
+}
+
 .work-process__step {
   counter-increment: work-process;
 }
