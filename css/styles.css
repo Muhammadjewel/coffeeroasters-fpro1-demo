@@ -1825,20 +1825,6 @@ img {
   .form-group__radio-item:not(:last-child) {
     margin-bottom: 25px;
   }
-
-  /* CUSTOM-RADIO */
-  .custom-radio {
-  }
-  .custom-radio__input {
-  }
-  .visually-hidden {
-  }
-  .custom-radio__control {
-  }
-  .custom-radio__title {
-  }
-  .custom-radio__info {
-  }
 }
 
 @media only screen and (min-width: 1440px) {
