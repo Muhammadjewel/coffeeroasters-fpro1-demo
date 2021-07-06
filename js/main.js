@@ -24,3 +24,15 @@ if (elsFormGroupToggler.length > 0) {
     });
   });
 }
+
+
+// CUSTOM-RADIO
+var elsCustomRadioInput = document.querySelectorAll('.custom-radio__input');
+
+if (elsCustomRadioInput.length > 0) {
+  elsCustomRadioInput.forEach(function (customRadio) {
+    customRadio.addEventListener('change', function (evt) {
+      console.log('working');
+    });
+  });
+}
