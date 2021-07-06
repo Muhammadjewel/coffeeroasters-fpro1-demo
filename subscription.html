@@ -74,9 +74,31 @@
       <!-- NEW-PLAN -->
       <section class="new-plan">
         <h2 class="visually-hidden">Create new plan</h2>
+
+        <!-- NEW-PLAN-STEPS -->
+        <ol class="new-plan__steps">
+          <li class="new-plan__steps-item">
+            <a class="new-plan__steps-link" href="#preferences">Preferences</a>
+          </li>
+          <li class="new-plan__steps-item">
+            <a class="new-plan__steps-link" href="#bean-type">Bean Type</a>
+          </li>
+          <li class="new-plan__steps-item">
+            <a class="new-plan__steps-link" href="#quantity">Quantity</a>
+          </li>
+          <li class="new-plan__steps-item">
+            <a class="new-plan__steps-link" href="#grind-option">Grind Option</a>
+          </li>
+          <li class="new-plan__steps-item">
+            <a class="new-plan__steps-link" href="#deliveries">Deliveries</a>
+          </li>
+        </ol>
+
+
+        <!-- NEW-PLAN-FORM -->
         <form class="new-plan-form" action="https://echo.htmlacademy.ru" method="POST">
           <div class="new-plan-form__inner">
-            <section class="new-plan-form__group form-group">
+            <section class="new-plan-form__group form-group" id="preferences">
               <header class="form-group__header">
                 <h3 class="form-group__heading">How do you drink your coffee?</h3>
                 <button class="form-group__toggler js-form-group-toggler" type="button">
@@ -115,7 +137,7 @@
                 </ul>
               </div>
             </section>
-            <section class="new-plan-form__group form-group">
+            <section class="new-plan-form__group form-group" id="bean-type">
               <header class="form-group__header">
                 <h3 class="form-group__heading">What type of coffee?</h3>
                 <button class="form-group__toggler js-form-group-toggler" type="button">
@@ -154,7 +176,7 @@
                 </ul>
               </div>
             </section>
-            <section class="new-plan-form__group form-group">
+            <section class="new-plan-form__group form-group" id="quantity">
               <header class="form-group__header">
                 <h3 class="form-group__heading">How much would you like?</h3>
                 <button class="form-group__toggler js-form-group-toggler" type="button">
@@ -193,7 +215,7 @@
                 </ul>
               </div>
             </section>
-            <section class="new-plan-form__group form-group">
+            <section class="new-plan-form__group form-group" id="grind-option">
               <header class="form-group__header">
                 <h3 class="form-group__heading">Want us to grind them?</h3>
                 <button class="form-group__toggler js-form-group-toggler" type="button">
@@ -232,7 +254,7 @@
                 </ul>
               </div>
             </section>
-            <section class="new-plan-form__group form-group">
+            <section class="new-plan-form__group form-group" id="deliveries">
               <header class="form-group__header">
                 <h3 class="form-group__heading">How often should we deliver?</h3>
                 <button class="form-group__toggler js-form-group-toggler" type="button">
@@ -275,7 +297,7 @@
 
           <section class="new-plan-form__summary form-summary">
             <h3 class="form-summary__heading">Order summary</h3>
-            <p class="form-summary__text">“I drink my coffee as <span class="form-summary__highlight form-summary__preference">Filter</span>, with a <span class="form-summary__highlight form-summary__bean-type">Decaf</span> type of bean. <span class="form-summary__highlight form-summary__quantity">250g</span> ground ala <span class="form-summary__highlight form-summary__grind">Cafetiére</span>, sent to me Every <span class="form-summary__highlight form-summary__quantity">Week</span>.”</p>
+            <p class="form-summary__text">“I drink my coffee as <span class="form-summary__highlight form-summary__preference"></span>, with a <span class="form-summary__highlight form-summary__bean-type"></span> type of bean. <span class="form-summary__highlight form-summary__quantity"></span> ground ala <span class="form-summary__highlight form-summary__grind"></span>, sent to me Every <span class="form-summary__highlight form-summary__quantity"></span>.”</p>
           </section>
 
           <button class="new-plan-form__button button" type="submit">Create my plan!</button>

@@ -123,6 +123,11 @@ img {
   opacity: 0.6;
 }
 
+.button:disabled,
+.button--disabled {
+  background-color: var(--light-grey);
+}
+
 
 /* PAGE */
 .page__container {
@@ -727,6 +732,10 @@ img {
   margin-bottom: 120px;
 }
 
+.new-plan__steps {
+  display: none;
+}
+
 
 /* NEW-PLAN-FORM */
 .new-plan-form {
@@ -875,6 +884,12 @@ img {
   color: var(--dark-cyan);
 }
 
+.form-summary__highlight:empty {
+  display: inline-block;
+  width: 60px;
+  border-bottom: 2px solid var(--dark-cyan);
+}
+
 .new-plan-form__button {
   align-self: center;
 }
@@ -1008,6 +1023,73 @@ img {
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 710px) {
+  /* NEW-PLAN */
+  .new-plan,
+  .new-plan-form__inner {
+    margin-bottom: 144px;
+  }
+
+  .new-plan-form__group:not(:last-child) {
+    margin-bottom: 100px;
+  }
+
+  /* FORM-GROUP */
+  .form-group__heading {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .form-group__inner {
+    padding-top: 40px;
+  }
+
+  .form-group__radio-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-bottom: -10px;
+  }
+
+  .form-group__radio-item {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3 - 10px);
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .form-group__radio-item:not(:last-child) {
+    margin-bottom: 0;
+    margin-bottom: 10px;
+  }
+
+  /* CUSTOM-RADIO */
+  .custom-radio {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .custom-radio__control {
+    flex-grow: 1;
+    padding: 32px 25px 84px;
+  }
+
+  .custom-radio__title {
+    margin-bottom: 24px;
+  }
+
+  .new-plan-form__summary {
+    margin-bottom: 40px;
+  }
+
+  /* FORM-SUMMARY */
+  .form-summary {
+    padding: 27px 44px;
   }
 }
 
@@ -1593,6 +1675,93 @@ img {
     height: 520px;
     margin-right: 125px;
   }
+
+  /* NEW-PLAN */
+  .new-plan {
+    display: flex;
+    margin-bottom: 168px;
+  }
+
+  .new-plan__steps {
+    flex-shrink: 0;
+    display: block;
+    width: 255px;
+    padding: 0;
+    margin: 0;
+    margin-right: 85px;
+    list-style: none;
+    counter-reset: new-plan-form;
+  }
+
+  .new-plan__steps-item {
+    padding: 24px 0;
+    counter-increment: new-plan-form;
+  }
+
+  .new-plan__steps-item:first-child {
+    padding-top: 0;
+  }
+
+  .new-plan__steps-item:last-child {
+    padding-bottom: 0;
+  }
+
+  .new-plan__steps-item:not(:last-child) {
+    border-bottom: 1px solid var(--grey);
+  }
+
+  .new-plan__steps-link {
+    display: flex;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: var(--font-family-fancy);
+    font-weight: 900;
+    color: var(--dark-grey-blue);
+    opacity: 0.4;
+  }
+
+  .new-plan__steps-link:hover {
+    opacity: 0.6;
+  }
+
+  .new-plan__steps-item--active .new-plan__steps-link {
+    opacity: 1;
+  }
+
+  .new-plan__steps-link::before {
+    margin-right: 25px;
+    color: var(--grey);
+    content: "0" counter(new-plan-form);
+  }
+
+  .new-plan__steps-item--active .new-plan__steps-link::before {
+    color: var(--dark-cyan);
+  }
+
+  .new-plan-form__group:not(:last-child) {
+    margin-bottom: 88px;
+  }
+
+  /* FORM-GROUP */
+  .form-group__heading {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .form-group__inner {
+    padding-top: 56px;
+  }
+
+  /* FORM-SUMMARY */
+  .form-summary {
+    padding: 47px 64px;
+  }
+
+  .new-plan-form__button {
+    align-self: flex-end;
+  }
 }
 
 @media only screen and (min-width: 1300px) {
@@ -1634,6 +1803,41 @@ img {
   .about-quality__text {
     font-size: 16px;
     line-height: 26px;
+  }
+
+  /* NEW-PLAN */
+  .new-plan__steps {
+    margin-right: 125px;
+  }
+
+  /* FORM-GROUP */
+  .form-group__radio-list {
+    margin-left: -25px;
+    margin-bottom: 25px;
+  }
+
+  .form-group__radio-item {
+    width: calc(100% / 3 - 25px);
+    margin-left: 25px;
+    margin-bottom: 25px;
+  }
+
+  .form-group__radio-item:not(:last-child) {
+    margin-bottom: 25px;
+  }
+
+  /* CUSTOM-RADIO */
+  .custom-radio {
+  }
+  .custom-radio__input {
+  }
+  .visually-hidden {
+  }
+  .custom-radio__control {
+  }
+  .custom-radio__title {
+  }
+  .custom-radio__info {
   }
 }
 
