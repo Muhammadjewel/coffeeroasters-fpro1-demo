@@ -1806,6 +1806,11 @@ img {
   }
 
   /* NEW-PLAN */
+  .new-plan {
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+
   .new-plan__steps {
     margin-right: 125px;
   }
