@@ -32,7 +32,9 @@ var elsCustomRadioInput = document.querySelectorAll('.custom-radio__input');
 if (elsCustomRadioInput.length > 0) {
   elsCustomRadioInput.forEach(function (customRadio) {
     customRadio.addEventListener('change', function (evt) {
-      console.log('working');
+      var summaryField = document.querySelector(customRadio.closest('label').dataset.summaryTarget);
+      var radioValue = customRadio.nextElementSibling.children[0].textContent;
+      summaryField.textContent = radioValue;
     });
   });
 }

@@ -148,7 +148,7 @@
               <div class="form-group__inner">
                 <ul class="form-group__radio-list">
                   <li class="form-group__radio-item">
-                    <label class="custom-radio">
+                    <label class="custom-radio" data-summary-target=".form-summary__bean-type">
                       <input class="custom-radio__input visually-hidden" type="radio" name="bean_type" value="single_origin">
                       <span class="custom-radio__control">
                         <span class="custom-radio__title">Single Origin</span>
@@ -157,7 +157,7 @@
                     </label>
                   </li>
                   <li class="form-group__radio-item">
-                    <label class="custom-radio">
+                    <label class="custom-radio" data-summary-target=".form-summary__bean-type">
                       <input class="custom-radio__input visually-hidden" type="radio" name="bean_type" value="decaf">
                       <span class="custom-radio__control">
                         <span class="custom-radio__title">Decaf</span>
@@ -166,7 +166,7 @@
                     </label>
                   </li>
                   <li class="form-group__radio-item">
-                    <label class="custom-radio">
+                    <label class="custom-radio" data-summary-target=".form-summary__bean-type">
                       <input class="custom-radio__input visually-hidden" type="radio" name="bean_type" value="blended">
                       <span class="custom-radio__control">
                         <span class="custom-radio__title">Blended</span>
@@ -188,7 +188,7 @@
               <div class="form-group__inner">
                 <ul class="form-group__radio-list">
                   <li class="form-group__radio-item">
-                    <label class="custom-radio">
+                    <label class="custom-radio" data-summary-target=".form-summary__quantity">
                       <input class="custom-radio__input visually-hidden" type="radio" name="quantity" value="250">
                       <span class="custom-radio__control">
                         <span class="custom-radio__title">250g</span>
@@ -197,7 +197,7 @@
                     </label>
                   </li>
                   <li class="form-group__radio-item">
-                    <label class="custom-radio">
+                    <label class="custom-radio" data-summary-target=".form-summary__quantity">
                       <input class="custom-radio__input visually-hidden" type="radio" name="quantity" value="500">
                       <span class="custom-radio__control">
                         <span class="custom-radio__title">500g</span>
@@ -206,7 +206,7 @@
                     </label>
                   </li>
                   <li class="form-group__radio-item">
-                    <label class="custom-radio">
+                    <label class="custom-radio" data-summary-target=".form-summary__quantity">
                       <input class="custom-radio__input visually-hidden" type="radio" name="quantity" value="1000">
                       <span class="custom-radio__control">
                         <span class="custom-radio__title">1000g</span>
@@ -228,7 +228,7 @@
               <div class="form-group__inner">
                 <ul class="form-group__radio-list">
                   <li class="form-group__radio-item">
-                    <label class="custom-radio">
+                    <label class="custom-radio" data-summary-target=".form-summary__grind">
                       <input class="custom-radio__input visually-hidden" type="radio" name="grind" value="wholebean">
                       <span class="custom-radio__control">
                         <span class="custom-radio__title">Wholebean</span>
@@ -237,7 +237,7 @@
                     </label>
                   </li>
                   <li class="form-group__radio-item">
-                    <label class="custom-radio">
+                    <label class="custom-radio" data-summary-target=".form-summary__grind">
                       <input class="custom-radio__input visually-hidden" type="radio" name="grind" value="filter">
                       <span class="custom-radio__control">
                         <span class="custom-radio__title">Filter</span>
@@ -246,7 +246,7 @@
                     </label>
                   </li>
                   <li class="form-group__radio-item">
-                    <label class="custom-radio">
+                    <label class="custom-radio" data-summary-target=".form-summary__grind">
                       <input class="custom-radio__input visually-hidden" type="radio" name="grind" value="cafetiere">
                       <span class="custom-radio__control">
                         <span class="custom-radio__title">Cafetiére</span>
@@ -268,7 +268,7 @@
               <div class="form-group__inner">
                 <ul class="form-group__radio-list">
                   <li class="form-group__radio-item">
-                    <label class="custom-radio">
+                    <label class="custom-radio" data-summary-target=".form-summary__delivery">
                       <input class="custom-radio__input visually-hidden" type="radio" name="delivery" value="weekly">
                       <span class="custom-radio__control">
                         <span class="custom-radio__title">Every week</span>
@@ -277,7 +277,7 @@
                     </label>
                   </li>
                   <li class="form-group__radio-item">
-                    <label class="custom-radio">
+                    <label class="custom-radio" data-summary-target=".form-summary__delivery">
                       <input class="custom-radio__input visually-hidden" type="radio" name="delivery" value="biweekly">
                       <span class="custom-radio__control">
                         <span class="custom-radio__title">Every 2 weeks</span>
@@ -286,7 +286,7 @@
                     </label>
                   </li>
                   <li class="form-group__radio-item">
-                    <label class="custom-radio">
+                    <label class="custom-radio" data-summary-target=".form-summary__delivery">
                       <input class="custom-radio__input visually-hidden" type="radio" name="delivery" value="monthly">
                       <span class="custom-radio__control">
                         <span class="custom-radio__title">Every month</span>
@@ -301,10 +301,10 @@
 
           <section class="new-plan-form__summary form-summary">
             <h3 class="form-summary__heading">Order summary</h3>
-            <p class="form-summary__text">“I drink my coffee as <span class="form-summary__highlight form-summary__preference"></span>, with a <span class="form-summary__highlight form-summary__bean-type"></span> type of bean. <span class="form-summary__highlight form-summary__quantity"></span> ground ala <span class="form-summary__highlight form-summary__grind"></span>, sent to me Every <span class="form-summary__highlight form-summary__quantity"></span>.”</p>
+            <p class="form-summary__text">“I drink my coffee as <span class="form-summary__highlight form-summary__preference"></span>, with a <span class="form-summary__highlight form-summary__bean-type"></span> type of bean. <span class="form-summary__highlight form-summary__quantity"></span> ground ala <span class="form-summary__highlight form-summary__grind"></span>, sent to me Every <span class="form-summary__highlight form-summary__delivery"></span>.”</p>
           </section>
 
-          <button class="new-plan-form__button button" type="submit">Create my plan!</button>
+          <button class="new-plan-form__button button js-new-plan-form-submit" type="submit">Create my plan!</button>
         </form>
       </section>
     </main>
